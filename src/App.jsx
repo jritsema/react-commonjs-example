@@ -3,9 +3,9 @@ var Profile = require('./profile.jsx');
 
 React.render(
   <Profile
-    username="Simon"
-    bio="My name is Simon. I make websites"
-    avatar="http://simonsmith.io/assets/images/me.jpg"
+    username="jritsema"
+    bio="Hello, my name is John"
+    avatar="http://www.gravatar.com/avatar/561d8607f8e67be182d311fc165567c7.png"
   />,
   document.body
 );
