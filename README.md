@@ -1,3 +1,7 @@
-# ReactJS with CommonJS example
+reactjs app template
+====================
 
-A simple example that accompanies http://simonsmith.io/writing-react-components-as-commonjs-modules/
+- get [react tools for Sublime](https://github.com/reactjs/sublime-react)
+- clone repo
+- run `npm install` to install tooling
+- run `npm run build` to build
