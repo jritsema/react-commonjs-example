@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/browserify -t reactify src/App.jsx > build/bundle.js"
+    "build": "./node_modules/.bin/browserify -t reactify src/App.jsx > build/bundle.js",
+    "start": "nodemon --exec npm run build -e jsx"
   },
   "author": "",
   "license": "BSD-2-Clause",
